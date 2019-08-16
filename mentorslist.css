@@ -1,8 +1,54 @@
 body {
 	margin: 0;
 	padding: 0;
+	overflow: hidden;
 }
 /*head*/
+.header-container {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100px;
+	background-color: white;
+	box-shadow: 0 0 20px 20px #0000001f;
+	align-content: grid;
+	display: flex;
+	overflow: hidden;
+	font-size: 30px;
+	font-weight: lighter;
+	font-family: fantasy;
+	color: black;
+}
+.header-text {
+	margin: 0;
+	padding: 10px 0 0 100px;
+	width: 40%;
+	height: 100%;
+	overflow: hidden;
+}
+.zero-edit {
+	margin: 0;
+	padding: 30px 0 0 0;
+	width: 20%;
+	height: 100%;
+	overflow: hidden;
+}
+.signout-link {
+	margin: 0;
+	padding: 30px 0 0 0;
+	width: 40%;
+	height: 100%;
+	overflow: hidden;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.signout-link:hover {
+	background-color: #b2b2b2;
+}
+
+/*end head*/
 
 #view-mentors-table-component-container {
 			width: 100%;
@@ -170,1186 +216,380 @@ body {
     		font-weight: lighter;
 		}
 		/*responsiveness*/
+		@media(max-width: 1300px) {
+			body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+/*head*/
+.header-container {
+	margin: 0;
+	padding: 0;
+	width: 1300px;
+	height: 100px;
+	background-color: white;
+	box-shadow: 0 0 20px 20px #0000001f;
+	align-content: grid;
+	display: flex;
+	overflow: hidden;
+	font-size: 30px;
+	font-weight: lighter;
+	font-family: fantasy;
+	color: black;
+}
+.header-text {
+	margin: 0;
+	padding: 10px 0 0 100px;
+	width: 40%;
+	height: 100%;
+	overflow: hidden;
+}
+.zero-edit {
+	margin: 0;
+	padding: 30px 0 0 0;
+	width: 20%;
+	height: 100%;
+	overflow: hidden;
+}
+.signout-link {
+	margin: 0;
+	padding: 30px 0 0 0;
+	width: 40%;
+	height: 100%;
+	overflow: hidden;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.signout-link:hover {
+	background-color: #b2b2b2;
+}
+
+/*end head*/
+		}
 		/*ipad pro*/
 		@media(max-width: 1020px) {
-        	#view-mentors-table-component-container {
-			width: 100%;
-			height: 100%;
-            margin: 0;
-            padding: 0;
-		}
-		#view-mentors-table-component-container table {
-			width: 100%;
-			height: 100%;
-			margin: 0;
-			padding: 0;
-		}
-		.zero {
-			width: 1020px;
-			height: 100px;
-			position: fixed;
-            background-color: black;
-            margin: auto 150px;
-            padding: 0;
-            top: 0;
-            z-index: 2;
-            color: White;
-            font-family: fantasy;
-            font-size: 20px;
-		}
-		#view-mentors-table-component-container table tr {
-			width: 100%;
-			height: 300px;
-			margin: 0;
-			padding: 0;
-		}
-		#view-mentors-table-component-container .one {
-			width: 33.333%;
-			height: 300px;
-			margin: 0;
-			padding: 0;
-		}
-		#view-mentors-table-component-container .one img {
-			width: 100%;
-			height: 270px;
-			margin: 0 0 0 10px;
-			padding: 0;
-			border: 1px solid #0000007a;
-    		box-shadow: 0px 0px 9px 3px #0000004d;
-		}
-		#view-mentors-table-component-container .two {
-            width: 20%;
-            height: 300px;
-            margin: 0;
-            padding: 0;
-		}
-		#view-mentors-table-component-container .two h3 {
-			text-align: left;
-            text-decoration: none;
-            color: #333;
-            padding: 0 0 0 50px;
-            text-overflow: none;
-            font-weight: lighter;
-            font-family: Fantasy;
-		}
-		#view-mentors-table-component-container .three {
-			width: 20%;
-			height: 200px;
-			margin: 0;
-			padding: 0;
-			position: relative;
-		}
-		#view-mentors-table-component-container .three a {
-			    width: 100%;
-    			height: 100%;
-    			border: none;
-    			background-color: #0000004d;
-    			text-decoration: none;
-    			position: absolute;
-    			text-align: center;
-    			padding: 0;
-    			margin: -160px 0 0 0;
-                color: #333;
-		}
-		#view-mentors-table-component-container .three a:focus {
-			outline: none;
-			color: none;
-		}
-		#view-mentors-table-component-container .three a:hover {
-			background-color: grey;
-		}
-		#view-mentors-table-component-container .three a .text-one {
-            width: 100%;
-   		    height: 30%;
-   		    padding: 0;
-   		    margin: 0;
-   		    font-size: 35px;
-   		    font-family: fantasy;
-    		font-weight: lighter;
-		}
-		#view-mentors-table-component-container .three a .text-two {
-			width: 100%;
-    		height: 30%;
-    		padding: 0;
-    		margin: 0;
-    		font-size: 19px;
-    		font-family: fantasy;
-    		font-weight: lighter;
-		}
-		#view-mentors-table-component-container .three a .text-three {
-			width: 100%;
-    		height: 30%;
-    		padding: 0;
-    		margin: 0;
-    		font-size: 19px;
-    		font-family: fantasy;
-    		font-weight: lighter;
-		}
-		#view-mentors-table-component-container .four {
-			width: 20%;
-			height: 200px;
-			padding: 0;
-			margin: 0;	
-			position: relative;	
-		}
-		#view-mentors-table-component-container .four a {
-			 width: 100%;
-    			height: 100%;
-    			border: none;
-    			background-color: #0000004d;
-    			text-decoration: none;
-    			position: absolute;
-    			text-align: center;
-    			padding: 0 0 0 0;
-    			margin: -160px 0 0 0;
-                color: #333;
-		}
-		#view-mentors-table-component-container .four a:focus {
-			outline: none;
-			color: none;
-		}
-		#view-mentors-table-component-container .four a:hover {
-			background-color: grey;
-		}
-		#view-mentors-table-component-container .four a .text-four-one {
-            width: 100%;
-   		    height: 30%;
-   		    padding: 0;
-   		    margin: 0;
-   		    font-size: 35px;
-   		    font-family: fantasy;
-    		font-weight: lighter;
-		}
-		#view-mentors-table-component-container .four a .text-four-two {
-			width: 100%;
-    		height: 30%;
-    		padding: 0;
-    		margin: 0;
-    		font-size: 19px;
-    		font-family: fantasy;
-    		font-weight: lighter;
-		}
-		#view-mentors-table-component-container .four a .text-four-three {
-			width: 100%;
-    		height: 30%;
-    		padding: 0;
-    		margin: 0;
-    		font-size: 19px;
-    		font-family: fantasy;
-    		font-weight: lighter;
-		}  
+        	body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+/*head*/
+.header-container {
+	margin: 0;
+	padding: 0;
+	width: 1020px;
+	height: 100px;
+	background-color: white;
+	box-shadow: 0 0 20px 20px #0000001f;
+	align-content: grid;
+	display: flex;
+	overflow: hidden;
+	font-size: 25px;
+	font-weight: lighter;
+	font-family: fantasy;
+	color: black;
+}
+.header-text {
+	margin: 0;
+	padding: 10px 0 0 100px;
+	width: 40%;
+	height: 100%;
+	overflow: hidden;
+}
+.zero-edit {
+	margin: 0;
+	padding: 30px 0 0 0;
+	width: 20%;
+	height: 100%;
+	overflow: hidden;
+}
+.signout-link {
+	margin: 0;
+	padding: 30px 0 0 0;
+	width: 40%;
+	height: 100%;
+	overflow: hidden;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.signout-link:hover {
+	background-color: #b2b2b2;
+}
+
+/*end head*/  
 		}
 		/*ipad*/
 		@media(max-width: 768px) {
-        	#view-mentors-table-component-container {
-			width: 100%;
-			height: 100%;
-            margin: 0;
-            padding: 0;
-		}
-		#view-mentors-table-component-container table {
-			width: 100%;
-			height: 100%;
-			margin: 0;
-			padding: 0;
-		}
-		.zero {
-			width: 1020px;
-			height: 100px;
-			position: fixed;
-            background-color: black;
-            margin: auto 150px;
-            padding: 0;
-            top: 0;
-            z-index: 2;
-            color: White;
-            font-family: fantasy;
-            font-size: 20px;
-		}
-		#view-mentors-table-component-container table tr {
-			width: 100%;
-			height: 300px;
-			margin: 0;
-			padding: 0;
-		}
-		#view-mentors-table-component-container .one {
-			width: 33.333%;
-			height: 300px;
-			margin: 0;
-			padding: 0;
-		}
-		#view-mentors-table-component-container .one img {
-			width: 100%;
-			height: 270px;
-			margin: 0 0 0 10px;
-			padding: 0;
-			border: 1px solid #0000007a;
-    		box-shadow: 0px 0px 9px 3px #0000004d;
-		}
-		#view-mentors-table-component-container .two {
-            width: 20%;
-            height: 300px;
-            margin: 0;
-            padding: 0;
-		}
-		#view-mentors-table-component-container .two h3 {
-			text-align: left;
-            text-decoration: none;
-            color: #333;
-            padding: 0 0 0 50px;
-            text-overflow: none;
-            font-weight: lighter;
-            font-family: Fantasy;
-		}
-		#view-mentors-table-component-container .three {
-			width: 20%;
-			height: 200px;
-			margin: 0;
-			padding: 0;
-			position: relative;
-		}
-		#view-mentors-table-component-container .three a {
-			    width: 100%;
-    			height: 100%;
-    			border: none;
-    			background-color: #0000004d;
-    			text-decoration: none;
-    			position: absolute;
-    			text-align: center;
-    			padding: 0;
-    			margin: -160px 0 0 0;
-                color: #333;
-		}
-		#view-mentors-table-component-container .three a:focus {
-			outline: none;
-			color: none;
-		}
-		#view-mentors-table-component-container .three a:hover {
-			background-color: grey;
-		}
-		#view-mentors-table-component-container .three a .text-one {
-            width: 100%;
-   		    height: 30%;
-   		    padding: 0;
-   		    margin: 0;
-   		    font-size: 35px;
-   		    font-family: fantasy;
-    		font-weight: lighter;
-		}
-		#view-mentors-table-component-container .three a .text-two {
-			width: 100%;
-    		height: 30%;
-    		padding: 0;
-    		margin: 0;
-    		font-size: 19px;
-    		font-family: fantasy;
-    		font-weight: lighter;
-		}
-		#view-mentors-table-component-container .three a .text-three {
-			width: 100%;
-    		height: 30%;
-    		padding: 0;
-    		margin: 0;
-    		font-size: 19px;
-    		font-family: fantasy;
-    		font-weight: lighter;
-		}
-		#view-mentors-table-component-container .four {
-			width: 20%;
-			height: 200px;
-			padding: 0;
-			margin: 0;	
-			position: relative;	
-		}
-		#view-mentors-table-component-container .four a {
-			 width: 100%;
-    			height: 100%;
-    			border: none;
-    			background-color: #0000004d;
-    			text-decoration: none;
-    			position: absolute;
-    			text-align: center;
-    			padding: 0 0 0 0;
-    			margin: -160px 0 0 0;
-                color: #333;
-		}
-		#view-mentors-table-component-container .four a:focus {
-			outline: none;
-			color: none;
-		}
-		#view-mentors-table-component-container .four a:hover {
-			background-color: grey;
-		}
-		#view-mentors-table-component-container .four a .text-four-one {
-            width: 100%;
-   		    height: 30%;
-   		    padding: 0;
-   		    margin: 0;
-   		    font-size: 35px;
-   		    font-family: fantasy;
-    		font-weight: lighter;
-		}
-		#view-mentors-table-component-container .four a .text-four-two {
-			width: 100%;
-    		height: 30%;
-    		padding: 0;
-    		margin: 0;
-    		font-size: 19px;
-    		font-family: fantasy;
-    		font-weight: lighter;
-		}
-		#view-mentors-table-component-container .four a .text-four-three {
-			width: 100%;
-    		height: 30%;
-    		padding: 0;
-    		margin: 0;
-    		font-size: 19px;
-    		font-family: fantasy;
-    		font-weight: lighter;
-		}
-		}
-		/*iphone x*/
-		@media(max-width: 375px) {
-        	#view-mentors-table-component-container {
-			width: 100%;
-			height: 100%;
-            margin: 0;
-            padding: 0;
-		}
-		#view-mentors-table-component-container table {
-			width: 100%;
-			height: 100%;
-			margin: 0;
-			padding: 0;
-		}
-		.zero {
-			width: 1020px;
-			height: 100px;
-			position: fixed;
-            background-color: black;
-            margin: auto 150px;
-            padding: 0;
-            top: 0;
-            z-index: 2;
-            color: White;
-            font-family: fantasy;
-            font-size: 20px;
-		}
-		#view-mentors-table-component-container table tr {
-			width: 100%;
-			height: 300px;
-			margin: 0;
-			padding: 0;
-		}
-		#view-mentors-table-component-container .one {
-			width: 33.333%;
-			height: 300px;
-			margin: 0;
-			padding: 0;
-		}
-		#view-mentors-table-component-container .one img {
-			width: 100%;
-			height: 270px;
-			margin: 0 0 0 10px;
-			padding: 0;
-			border: 1px solid #0000007a;
-    		box-shadow: 0px 0px 9px 3px #0000004d;
-		}
-		#view-mentors-table-component-container .two {
-            width: 20%;
-            height: 300px;
-            margin: 0;
-            padding: 0;
-		}
-		#view-mentors-table-component-container .two h3 {
-			text-align: left;
-            text-decoration: none;
-            color: #333;
-            padding: 0 0 0 50px;
-            text-overflow: none;
-            font-weight: lighter;
-            font-family: Fantasy;
-		}
-		#view-mentors-table-component-container .three {
-			width: 20%;
-			height: 200px;
-			margin: 0;
-			padding: 0;
-			position: relative;
-		}
-		#view-mentors-table-component-container .three a {
-			    width: 100%;
-    			height: 100%;
-    			border: none;
-    			background-color: #0000004d;
-    			text-decoration: none;
-    			position: absolute;
-    			text-align: center;
-    			padding: 0;
-    			margin: -160px 0 0 0;
-                color: #333;
-		}
-		#view-mentors-table-component-container .three a:focus {
-			outline: none;
-			color: none;
-		}
-		#view-mentors-table-component-container .three a:hover {
-			background-color: grey;
-		}
-		#view-mentors-table-component-container .three a .text-one {
-            width: 100%;
-   		    height: 30%;
-   		    padding: 0;
-   		    margin: 0;
-   		    font-size: 35px;
-   		    font-family: fantasy;
-    		font-weight: lighter;
-		}
-		#view-mentors-table-component-container .three a .text-two {
-			width: 100%;
-    		height: 30%;
-    		padding: 0;
-    		margin: 0;
-    		font-size: 19px;
-    		font-family: fantasy;
-    		font-weight: lighter;
-		}
-		#view-mentors-table-component-container .three a .text-three {
-			width: 100%;
-    		height: 30%;
-    		padding: 0;
-    		margin: 0;
-    		font-size: 19px;
-    		font-family: fantasy;
-    		font-weight: lighter;
-		}
-		#view-mentors-table-component-container .four {
-			width: 20%;
-			height: 200px;
-			padding: 0;
-			margin: 0;	
-			position: relative;	
-		}
-		#view-mentors-table-component-container .four a {
-			 width: 100%;
-    			height: 100%;
-    			border: none;
-    			background-color: #0000004d;
-    			text-decoration: none;
-    			position: absolute;
-    			text-align: center;
-    			padding: 0 0 0 0;
-    			margin: -160px 0 0 0;
-                color: #333;
-		}
-		#view-mentors-table-component-container .four a:focus {
-			outline: none;
-			color: none;
-		}
-		#view-mentors-table-component-container .four a:hover {
-			background-color: grey;
-		}
-		#view-mentors-table-component-container .four a .text-four-one {
-            width: 100%;
-   		    height: 30%;
-   		    padding: 0;
-   		    margin: 0;
-   		    font-size: 35px;
-   		    font-family: fantasy;
-    		font-weight: lighter;
-		}
-		#view-mentors-table-component-container .four a .text-four-two {
-			width: 100%;
-    		height: 30%;
-    		padding: 0;
-    		margin: 0;
-    		font-size: 19px;
-    		font-family: fantasy;
-    		font-weight: lighter;
-		}
-		#view-mentors-table-component-container .four a .text-four-three {
-			width: 100%;
-    		height: 30%;
-    		padding: 0;
-    		margin: 0;
-    		font-size: 19px;
-    		font-family: fantasy;
-    		font-weight: lighter;
-		}
+        	body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+/*head*/
+.header-container {
+	margin: 0;
+	padding: 0;
+	width: 768px;
+	height: 100px;
+	background-color: white;
+	box-shadow: 0 0 20px 20px #0000001f;
+	align-content: grid;
+	display: flex;
+	overflow: hidden;
+	font-size: 18px;
+	font-weight: lighter;
+	font-family: fantasy;
+	color: black;
+}
+.header-text {
+	margin: 0;
+	padding: 18px 0 0 100px;
+	width: 40%;
+	height: 100%;
+	overflow: hidden;
+}
+.zero-edit {
+	margin: 0;
+	padding: 30px 0 0 0;
+	width: 20%;
+	height: 100%;
+	overflow: hidden;
+}
+.signout-link {
+	margin: 0;
+	padding: 30px 0 0 0;
+	width: 40%;
+	height: 100%;
+	overflow: hidden;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.signout-link:hover {
+	background-color: #b2b2b2;
+}
+
+/*end head*/
 		}
 		/*iphone 6/7/8 plus*/
 		@media(max-width: 414px) {
-        	#view-mentors-table-component-container {
-			width: 100%;
-			height: 100%;
-            margin: 0;
-            padding: 0;
-		}
-		#view-mentors-table-component-container table {
-			width: 100%;
-			height: 100%;
-			margin: 0;
-			padding: 0;
-		}
-		.zero {
-			width: 1020px;
-			height: 100px;
-			position: fixed;
-            background-color: black;
-            margin: auto 150px;
-            padding: 0;
-            top: 0;
-            z-index: 2;
-            color: White;
-            font-family: fantasy;
-            font-size: 20px;
-		}
-		#view-mentors-table-component-container table tr {
-			width: 100%;
-			height: 300px;
-			margin: 0;
-			padding: 0;
-		}
-		#view-mentors-table-component-container .one {
-			width: 33.333%;
-			height: 300px;
-			margin: 0;
-			padding: 0;
-		}
-		#view-mentors-table-component-container .one img {
-			width: 100%;
-			height: 270px;
-			margin: 0 0 0 10px;
-			padding: 0;
-			border: 1px solid #0000007a;
-    		box-shadow: 0px 0px 9px 3px #0000004d;
-		}
-		#view-mentors-table-component-container .two {
-            width: 20%;
-            height: 300px;
-            margin: 0;
-            padding: 0;
-		}
-		#view-mentors-table-component-container .two h3 {
-			text-align: left;
-            text-decoration: none;
-            color: #333;
-            padding: 0 0 0 50px;
-            text-overflow: none;
-            font-weight: lighter;
-            font-family: Fantasy;
-		}
-		#view-mentors-table-component-container .three {
-			width: 20%;
-			height: 200px;
-			margin: 0;
-			padding: 0;
-			position: relative;
-		}
-		#view-mentors-table-component-container .three a {
-			    width: 100%;
-    			height: 100%;
-    			border: none;
-    			background-color: #0000004d;
-    			text-decoration: none;
-    			position: absolute;
-    			text-align: center;
-    			padding: 0;
-    			margin: -160px 0 0 0;
-                color: #333;
-		}
-		#view-mentors-table-component-container .three a:focus {
-			outline: none;
-			color: none;
-		}
-		#view-mentors-table-component-container .three a:hover {
-			background-color: grey;
-		}
-		#view-mentors-table-component-container .three a .text-one {
-            width: 100%;
-   		    height: 30%;
-   		    padding: 0;
-   		    margin: 0;
-   		    font-size: 35px;
-   		    font-family: fantasy;
-    		font-weight: lighter;
-		}
-		#view-mentors-table-component-container .three a .text-two {
-			width: 100%;
-    		height: 30%;
-    		padding: 0;
-    		margin: 0;
-    		font-size: 19px;
-    		font-family: fantasy;
-    		font-weight: lighter;
-		}
-		#view-mentors-table-component-container .three a .text-three {
-			width: 100%;
-    		height: 30%;
-    		padding: 0;
-    		margin: 0;
-    		font-size: 19px;
-    		font-family: fantasy;
-    		font-weight: lighter;
-		}
-		#view-mentors-table-component-container .four {
-			width: 20%;
-			height: 200px;
-			padding: 0;
-			margin: 0;	
-			position: relative;	
-		}
-		#view-mentors-table-component-container .four a {
-			 width: 100%;
-    			height: 100%;
-    			border: none;
-    			background-color: #0000004d;
-    			text-decoration: none;
-    			position: absolute;
-    			text-align: center;
-    			padding: 0 0 0 0;
-    			margin: -160px 0 0 0;
-                color: #333;
-		}
-		#view-mentors-table-component-container .four a:focus {
-			outline: none;
-			color: none;
-		}
-		#view-mentors-table-component-container .four a:hover {
-			background-color: grey;
-		}
-		#view-mentors-table-component-container .four a .text-four-one {
-            width: 100%;
-   		    height: 30%;
-   		    padding: 0;
-   		    margin: 0;
-   		    font-size: 35px;
-   		    font-family: fantasy;
-    		font-weight: lighter;
-		}
-		#view-mentors-table-component-container .four a .text-four-two {
-			width: 100%;
-    		height: 30%;
-    		padding: 0;
-    		margin: 0;
-    		font-size: 19px;
-    		font-family: fantasy;
-    		font-weight: lighter;
-		}
-		#view-mentors-table-component-container .four a .text-four-three {
-			width: 100%;
-    		height: 30%;
-    		padding: 0;
-    		margin: 0;
-    		font-size: 19px;
-    		font-family: fantasy;
-    		font-weight: lighter;
-		}   
+        	body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+/*head*/
+.header-container {
+	margin: 0;
+	padding: 0;
+	width: 414px;
+	height: 100px;
+	background-color: white;
+	box-shadow: 0 0 20px 20px #0000001f;
+	align-content: grid;
+	display: flex;
+	overflow: hidden;
+	font-size: 10px;
+	font-weight: lighter;
+	font-family: fantasy;
+	color: black;
+}
+.header-text {
+	margin: 0;
+	padding: 30px 0 0 100px;
+	width: 40%;
+	height: 100%;
+	overflow: hidden;
+}
+.zero-edit {
+	margin: 0;
+	padding: 30px 0 0 0;
+	width: 20%;
+	height: 100%;
+	overflow: hidden;
+}
+.signout-link {
+	margin: 0;
+	padding: 30px 0 0 0;
+	width: 40%;
+	height: 100%;
+	overflow: hidden;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.signout-link:hover {
+	background-color: #b2b2b2;
+}
+
+/*end head*/
 		}
 		/*iphone 5/se*/
 		@media(max-width: 320px) {
-        	#view-mentors-table-component-container {
-			width: 100%;
-			height: 100%;
-            margin: 0;
-            padding: 0;
-		}
-		#view-mentors-table-component-container table {
-			width: 100%;
-			height: 100%;
-			margin: 0;
-			padding: 0;
-		}
-		.zero {
-			width: 1020px;
-			height: 100px;
-			position: fixed;
-            background-color: black;
-            margin: auto 150px;
-            padding: 0;
-            top: 0;
-            z-index: 2;
-            color: White;
-            font-family: fantasy;
-            font-size: 20px;
-		}
-		#view-mentors-table-component-container table tr {
-			width: 100%;
-			height: 300px;
-			margin: 0;
-			padding: 0;
-		}
-		#view-mentors-table-component-container .one {
-			width: 33.333%;
-			height: 300px;
-			margin: 0;
-			padding: 0;
-		}
-		#view-mentors-table-component-container .one img {
-			width: 100%;
-			height: 270px;
-			margin: 0 0 0 10px;
-			padding: 0;
-			border: 1px solid #0000007a;
-    		box-shadow: 0px 0px 9px 3px #0000004d;
-		}
-		#view-mentors-table-component-container .two {
-            width: 20%;
-            height: 300px;
-            margin: 0;
-            padding: 0;
-		}
-		#view-mentors-table-component-container .two h3 {
-			text-align: left;
-            text-decoration: none;
-            color: #333;
-            padding: 0 0 0 50px;
-            text-overflow: none;
-            font-weight: lighter;
-            font-family: Fantasy;
-		}
-		#view-mentors-table-component-container .three {
-			width: 20%;
-			height: 200px;
-			margin: 0;
-			padding: 0;
-			position: relative;
-		}
-		#view-mentors-table-component-container .three a {
-			    width: 100%;
-    			height: 100%;
-    			border: none;
-    			background-color: #0000004d;
-    			text-decoration: none;
-    			position: absolute;
-    			text-align: center;
-    			padding: 0;
-    			margin: -160px 0 0 0;
-                color: #333;
-		}
-		#view-mentors-table-component-container .three a:focus {
-			outline: none;
-			color: none;
-		}
-		#view-mentors-table-component-container .three a:hover {
-			background-color: grey;
-		}
-		#view-mentors-table-component-container .three a .text-one {
-            width: 100%;
-   		    height: 30%;
-   		    padding: 0;
-   		    margin: 0;
-   		    font-size: 35px;
-   		    font-family: fantasy;
-    		font-weight: lighter;
-		}
-		#view-mentors-table-component-container .three a .text-two {
-			width: 100%;
-    		height: 30%;
-    		padding: 0;
-    		margin: 0;
-    		font-size: 19px;
-    		font-family: fantasy;
-    		font-weight: lighter;
-		}
-		#view-mentors-table-component-container .three a .text-three {
-			width: 100%;
-    		height: 30%;
-    		padding: 0;
-    		margin: 0;
-    		font-size: 19px;
-    		font-family: fantasy;
-    		font-weight: lighter;
-		}
-		#view-mentors-table-component-container .four {
-			width: 20%;
-			height: 200px;
-			padding: 0;
-			margin: 0;	
-			position: relative;	
-		}
-		#view-mentors-table-component-container .four a {
-			 width: 100%;
-    			height: 100%;
-    			border: none;
-    			background-color: #0000004d;
-    			text-decoration: none;
-    			position: absolute;
-    			text-align: center;
-    			padding: 0 0 0 0;
-    			margin: -160px 0 0 0;
-                color: #333;
-		}
-		#view-mentors-table-component-container .four a:focus {
-			outline: none;
-			color: none;
-		}
-		#view-mentors-table-component-container .four a:hover {
-			background-color: grey;
-		}
-		#view-mentors-table-component-container .four a .text-four-one {
-            width: 100%;
-   		    height: 30%;
-   		    padding: 0;
-   		    margin: 0;
-   		    font-size: 35px;
-   		    font-family: fantasy;
-    		font-weight: lighter;
-		}
-		#view-mentors-table-component-container .four a .text-four-two {
-			width: 100%;
-    		height: 30%;
-    		padding: 0;
-    		margin: 0;
-    		font-size: 19px;
-    		font-family: fantasy;
-    		font-weight: lighter;
-		}
-		#view-mentors-table-component-container .four a .text-four-three {
-			width: 100%;
-    		height: 30%;
-    		padding: 0;
-    		margin: 0;
-    		font-size: 19px;
-    		font-family: fantasy;
-    		font-weight: lighter;
-		}  
+        	body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+/*head*/
+.header-container {
+	margin: 0;
+	padding: 0;
+	width: 320px;
+	height: 100px;
+	background-color: white;
+	box-shadow: 0 0 20px 20px #0000001f;
+	align-content: grid;
+	display: flex;
+	overflow: hidden;
+	font-size: 16px;
+	font-weight: lighter;
+	font-family: fantasy;
+	color: black;
+}
+.header-text {
+	margin: 0;
+	padding: 10px 0 0 100px;
+	width: 40%;
+	height: 100%;
+	overflow: hidden;
+}
+.zero-edit {
+	margin: 0;
+	padding: 30px 0 0 0;
+	width: 20%;
+	height: 100%;
+	overflow: hidden;
+}
+.signout-link {
+	margin: 0;
+	padding: 30px 0 0 0;
+	width: 40%;
+	height: 100%;
+	overflow: hidden;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.signout-link:hover {
+	background-color: #b2b2b2;
+}
+
+/*end head*/
 		}
 		/*pixel2 xl*/
 		@media(max-width: 411px) {
-        	#view-mentors-table-component-container {
-			width: 100%;
-			height: 100%;
-            margin: 0;
-            padding: 0;
-		}
-		#view-mentors-table-component-container table {
-			width: 100%;
-			height: 100%;
-			margin: 0;
-			padding: 0;
-		}
-		.zero {
-			width: 1020px;
-			height: 100px;
-			position: fixed;
-            background-color: black;
-            margin: auto 150px;
-            padding: 0;
-            top: 0;
-            z-index: 2;
-            color: White;
-            font-family: fantasy;
-            font-size: 20px;
-		}
-		#view-mentors-table-component-container table tr {
-			width: 100%;
-			height: 300px;
-			margin: 0;
-			padding: 0;
-		}
-		#view-mentors-table-component-container .one {
-			width: 33.333%;
-			height: 300px;
-			margin: 0;
-			padding: 0;
-		}
-		#view-mentors-table-component-container .one img {
-			width: 100%;
-			height: 270px;
-			margin: 0 0 0 10px;
-			padding: 0;
-			border: 1px solid #0000007a;
-    		box-shadow: 0px 0px 9px 3px #0000004d;
-		}
-		#view-mentors-table-component-container .two {
-            width: 20%;
-            height: 300px;
-            margin: 0;
-            padding: 0;
-		}
-		#view-mentors-table-component-container .two h3 {
-			text-align: left;
-            text-decoration: none;
-            color: #333;
-            padding: 0 0 0 50px;
-            text-overflow: none;
-            font-weight: lighter;
-            font-family: Fantasy;
-		}
-		#view-mentors-table-component-container .three {
-			width: 20%;
-			height: 200px;
-			margin: 0;
-			padding: 0;
-			position: relative;
-		}
-		#view-mentors-table-component-container .three a {
-			    width: 100%;
-    			height: 100%;
-    			border: none;
-    			background-color: #0000004d;
-    			text-decoration: none;
-    			position: absolute;
-    			text-align: center;
-    			padding: 0;
-    			margin: -160px 0 0 0;
-                color: #333;
-		}
-		#view-mentors-table-component-container .three a:focus {
-			outline: none;
-			color: none;
-		}
-		#view-mentors-table-component-container .three a:hover {
-			background-color: grey;
-		}
-		#view-mentors-table-component-container .three a .text-one {
-            width: 100%;
-   		    height: 30%;
-   		    padding: 0;
-   		    margin: 0;
-   		    font-size: 35px;
-   		    font-family: fantasy;
-    		font-weight: lighter;
-		}
-		#view-mentors-table-component-container .three a .text-two {
-			width: 100%;
-    		height: 30%;
-    		padding: 0;
-    		margin: 0;
-    		font-size: 19px;
-    		font-family: fantasy;
-    		font-weight: lighter;
-		}
-		#view-mentors-table-component-container .three a .text-three {
-			width: 100%;
-    		height: 30%;
-    		padding: 0;
-    		margin: 0;
-    		font-size: 19px;
-    		font-family: fantasy;
-    		font-weight: lighter;
-		}
-		#view-mentors-table-component-container .four {
-			width: 20%;
-			height: 200px;
-			padding: 0;
-			margin: 0;	
-			position: relative;	
-		}
-		#view-mentors-table-component-container .four a {
-			 width: 100%;
-    			height: 100%;
-    			border: none;
-    			background-color: #0000004d;
-    			text-decoration: none;
-    			position: absolute;
-    			text-align: center;
-    			padding: 0 0 0 0;
-    			margin: -160px 0 0 0;
-                color: #333;
-		}
-		#view-mentors-table-component-container .four a:focus {
-			outline: none;
-			color: none;
-		}
-		#view-mentors-table-component-container .four a:hover {
-			background-color: grey;
-		}
-		#view-mentors-table-component-container .four a .text-four-one {
-            width: 100%;
-   		    height: 30%;
-   		    padding: 0;
-   		    margin: 0;
-   		    font-size: 35px;
-   		    font-family: fantasy;
-    		font-weight: lighter;
-		}
-		#view-mentors-table-component-container .four a .text-four-two {
-			width: 100%;
-    		height: 30%;
-    		padding: 0;
-    		margin: 0;
-    		font-size: 19px;
-    		font-family: fantasy;
-    		font-weight: lighter;
-		}
-		#view-mentors-table-component-container .four a .text-four-three {
-			width: 100%;
-    		height: 30%;
-    		padding: 0;
-    		margin: 0;
-    		font-size: 19px;
-    		font-family: fantasy;
-    		font-weight: lighter;
-		} 
+        	body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+/*head*/
+.header-container {
+	margin: 0;
+	padding: 0;
+	width: 411px;
+	height: 100px;
+	background-color: white;
+	box-shadow: 0 0 20px 20px #0000001f;
+	align-content: grid;
+	display: flex;
+	overflow: hidden;
+	font-size: 12px;
+	font-weight: lighter;
+	font-family: fantasy;
+	color: black;
+}
+.header-text {
+	margin: 0;
+	padding: 10px 0 0 100px;
+	width: 40%;
+	height: 100%;
+	overflow: hidden;
+}
+.zero-edit {
+	margin: 0;
+	padding: 30px 0 0 0;
+	width: 20%;
+	height: 100%;
+	overflow: hidden;
+}
+.signout-link {
+	margin: 0;
+	padding: 30px 0 0 0;
+	width: 40%;
+	height: 100%;
+	overflow: hidden;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.signout-link:hover {
+	background-color: #b2b2b2;
+}
+
+/*end head*/
 		}
 		/*galaxy s5*/
 		@media(max-width: 360px) {
-        	#view-mentors-table-component-container {
-			width: 100%;
-			height: 100%;
-            margin: 0;
-            padding: 0;
-		}
-		#view-mentors-table-component-container table {
-			width: 100%;
-			height: 100%;
-			margin: 0;
-			padding: 0;
-		}
-		.zero {
-			width: 100%;
-			height: 100px;
-			position: fixed;
-            background-color: black;
-            margin: 0;
-            padding: 0;
-            top: 0;
-            z-index: 2;
-            color: White;
-            font-family: fantasy;
-            font-size: 20px;
-		}
-		#view-mentors-table-component-container table tr {
-			width: 100%;
-			height: 300px;
-			margin: 0;
-			padding: 0;
-		}
-		#view-mentors-table-component-container .one {
-			width: 33.333%;
-			height: 300px;
-			margin: 0;
-			padding: 0;
-		}
-		#view-mentors-table-component-container .one img {
-			width: 100%;
-			height: 270px;
-			margin: 0 0 0 10px;
-			padding: 0;
-			border: 1px solid #0000007a;
-    		box-shadow: 0px 0px 9px 3px #0000004d;
-		}
-		#view-mentors-table-component-container .two {
-            width: 20%;
-            height: 300px;
-            margin: 0;
-            padding: 0;
-		}
-		#view-mentors-table-component-container .two h3 {
-			text-align: left;
-            text-decoration: none;
-            color: #333;
-            padding: 0 0 0 50px;
-            text-overflow: none;
-            font-weight: lighter;
-            font-family: Fantasy;
-		}
-		#view-mentors-table-component-container .three {
-			width: 20%;
-			height: 200px;
-			margin: 0;
-			padding: 0;
-			position: relative;
-		}
-		#view-mentors-table-component-container .three a {
-			    width: 100%;
-    			height: 100%;
-    			border: none;
-    			background-color: #0000004d;
-    			text-decoration: none;
-    			position: absolute;
-    			text-align: center;
-    			padding: 0;
-    			margin: -160px 0 0 0;
-                color: #333;
-		}
-		#view-mentors-table-component-container .three a:focus {
-			outline: none;
-			color: none;
-		}
-		#view-mentors-table-component-container .three a:hover {
-			background-color: grey;
-		}
-		#view-mentors-table-component-container .three a .text-one {
-            width: 100%;
-   		    height: 30%;
-   		    padding: 0;
-   		    margin: 0;
-   		    font-size: 35px;
-   		    font-family: fantasy;
-    		font-weight: lighter;
-		}
-		#view-mentors-table-component-container .three a .text-two {
-			width: 100%;
-    		height: 30%;
-    		padding: 0;
-    		margin: 0;
-    		font-size: 19px;
-    		font-family: fantasy;
-    		font-weight: lighter;
-		}
-		#view-mentors-table-component-container .three a .text-three {
-			width: 100%;
-    		height: 30%;
-    		padding: 0;
-    		margin: 0;
-    		font-size: 19px;
-    		font-family: fantasy;
-    		font-weight: lighter;
-		}
-		#view-mentors-table-component-container .four {
-			width: 20%;
-			height: 200px;
-			padding: 0;
-			margin: 0;	
-			position: relative;	
-		}
-		#view-mentors-table-component-container .four a {
-			 width: 100%;
-    			height: 100%;
-    			border: none;
-    			background-color: #0000004d;
-    			text-decoration: none;
-    			position: absolute;
-    			text-align: center;
-    			padding: 0 0 0 0;
-    			margin: -160px 0 0 0;
-                color: #333;
-		}
-		#view-mentors-table-component-container .four a:focus {
-			outline: none;
-			color: none;
-		}
-		#view-mentors-table-component-container .four a:hover {
-			background-color: grey;
-		}
-		#view-mentors-table-component-container .four a .text-four-one {
-            width: 100%;
-   		    height: 30%;
-   		    padding: 0;
-   		    margin: 0;
-   		    font-size: 35px;
-   		    font-family: fantasy;
-    		font-weight: lighter;
-		}
-		#view-mentors-table-component-container .four a .text-four-two {
-			width: 100%;
-    		height: 30%;
-    		padding: 0;
-    		margin: 0;
-    		font-size: 19px;
-    		font-family: fantasy;
-    		font-weight: lighter;
-		}
-		#view-mentors-table-component-container .four a .text-four-three {
-			width: 100%;
-    		height: 30%;
-    		padding: 0;
-    		margin: 0;
-    		font-size: 19px;
-    		font-family: fantasy;
-    		font-weight: lighter;
-		} 
+        	body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+/*head*/
+.header-container {
+	margin: 0;
+	padding: 0;
+	width: 360px;
+	height: 100px;
+	background-color: white;
+	box-shadow: 0 0 20px 20px #0000001f;
+	align-content: grid;
+	display: flex;
+	overflow: hidden;
+	font-size: 12px;
+	font-weight: lighter;
+	font-family: fantasy;
+	color: black;
+}
+.header-text {
+	margin: 0;
+	padding: 10px 0 0 100px;
+	width: 40%;
+	height: 100%;
+	overflow: hidden;
+}
+.zero-edit {
+	margin: 0;
+	padding: 30px 5px 0 0;
+	width: 20%;
+	height: 100%;
+	overflow: hidden;
+}
+.signout-link {
+	margin: 0;
+	padding: 30px 0 0 0;
+	width: 40%;
+	height: 100%;
+	overflow: hidden;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.signout-link:hover {
+	background-color: #b2b2b2;
+}
+
+/*end head*/
 		}
