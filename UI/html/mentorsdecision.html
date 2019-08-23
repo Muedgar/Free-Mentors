@@ -1,22 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Free Mentors | Administrator Dashboard</title>
-	<link rel="stylesheet" type="text/css" href="./mentorslist.css">
-		<link rel="stylesheet" type="text/css" href="./mentordecisioncard.css">
-
+	<title>Free Mentors | Mentor Dashboard</title>
+	<link rel="stylesheet" type="text/css" href="../css/mentorslist.css">
+		<link rel="stylesheet" type="text/css" href="../css/mentordecisioncard.css">
 </head>
 <body>
-	<div class="header-container">
+<div class="header-container">
 		<h1 class="header-text">Free Mentors</h1>
 		<h3 class="zero-edit">View Users</h3>
 		<a class="signout-link" href="./entryapp.html">Menu</a>
 </div>
 <div class="space-container"></div>
-<div class="margin-problem">
 <div class="grid-one">
 <div class="decision-container">
-<div class="decision-sub-container">
+	<div class="decision-sub-container">
 		<!--verification-->
 		<div class="verification-container">
 			<div class="user-info-container">
@@ -25,20 +23,21 @@
 		</div>
 		<div class="confirm-container">
 			<label>Confirm with a token:</label><br>
-			<input id="tokenValueOne" placeholder="323da@!*?YYZOLH&7" type="token" name=""><br>
-			<button onclick="confirmAdminOne()" id="confirm-token">Confirm</button>
+			<input id="tokenValOne" placeholder="323da@!*?YYZOLH&7" type="token" name=""><br>
+			<button onclick="confirmOne()" id="confirm-token-one">Confirm</button>
 		</div>
 		</div>
 		<!--accept or deny-->
 		<div class="accept-or-deny-container">
-			<label id="helpMeOne" class="hint"></label><br>
-			<button onclick="changeToMentorOne()" id="accept-id-one">Change To Mentor</button><br>
+			<label id="helpOne" class="hint"></label><br>
+			<button onclick="acceptReqOne()" id="accept-id-one">Accept Request</button><br>
+			<button onclick="denyReqOne()" id="deny-id-one">Deny Request</button>
 		</div>
 	</div>
 </div>
 
 <div class="decision-container">
-<div class="decision-sub-container">
+	<div class="decision-sub-container">
 		<!--verification-->
 		<div class="verification-container">
 			<div class="user-info-container">
@@ -47,20 +46,21 @@
 		</div>
 		<div class="confirm-container">
 			<label>Confirm with a token:</label><br>
-			<input id="tokenValueTwo" placeholder="323da@!*?YYZOLH&7" type="token" name=""><br>
-			<button onclick="confirmAdminTwo()" id="confirm-token">Confirm</button>
+			<input id="tokenValTwo" placeholder="323da@!*?YYZOLH&7" type="token" name=""><br>
+			<button onclick="confirmTwo()" id="confirm-token-two">Confirm</button>
 		</div>
 		</div>
 		<!--accept or deny-->
 		<div class="accept-or-deny-container">
-			<label id="helpMeTwo" class="hint"></label><br>
-			<button onclick="changeToMentorTwo()" id="accept-id-two">Change To Mentor</button><br>
+			<label id="helpTwo" class="hint"></label><br>
+			<button onclick="acceptReqTwo()" id="accept-id-two">Accept Request</button><br>
+			<button onclick="denyReqTwo()" id="deny-id-two">Deny Request</button>
 		</div>
 	</div>
 </div>
 
 <div class="decision-container">
-<div class="decision-sub-container">
+	<div class="decision-sub-container">
 		<!--verification-->
 		<div class="verification-container">
 			<div class="user-info-container">
@@ -69,14 +69,15 @@
 		</div>
 		<div class="confirm-container">
 			<label>Confirm with a token:</label><br>
-			<input id="tokenValueThree" placeholder="323da@!*?YYZOLH&7" type="token" name=""><br>
-			<button onclick="confirmAdminThree()" id="confirm-token">Confirm</button>
+			<input id="tokenValThree" placeholder="323da@!*?YYZOLH&7" type="token" name=""><br>
+			<button onclick="confirmThree()" id="confirm-token">Confirm</button>
 		</div>
 		</div>
 		<!--accept or deny-->
 		<div class="accept-or-deny-container">
-			<label id="helpMeThree" class="hint"></label><br>
-			<button onclick="changeToMentorThree()" id="accept-id-three">Change To Mentor</button><br>
+			<label id="helpThree" class="hint"></label><br>
+			<button onclick="acceptReqThree()" id="accept-id-Three">Accept Request</button><br>
+			<button onclick="denyReqThree()" id="deny-id-Three">Deny Request</button>
 		</div>
 	</div>
 </div>
@@ -84,7 +85,7 @@
 
 <div class="grid-one">
 <div class="decision-container">
-<div class="decision-sub-container">
+	<div class="decision-sub-container">
 		<!--verification-->
 		<div class="verification-container">
 			<div class="user-info-container">
@@ -93,20 +94,21 @@
 		</div>
 		<div class="confirm-container">
 			<label>Confirm with a token:</label><br>
-			<input id="tokenValueFour" placeholder="323da@!*?YYZOLH&7" type="token" name=""><br>
-			<button onclick="confirmAdminFour()" id="confirm-token">Confirm</button>
+			<input id="tokenValFour" placeholder="323da@!*?YYZOLH&7" type="token" name=""><br>
+			<button onclick="confirmFour()" id="confirm-token">Confirm</button>
 		</div>
 		</div>
 		<!--accept or deny-->
 		<div class="accept-or-deny-container">
-			<label id="helpMeFour" class="hint"></label><br>
-			<button onclick="changeToMentorFour()" id="accept-id-four">Change To Mentor</button><br>
+			<label id="helpFour" class="hint"></label><br>
+			<button onclick="acceptReqFour()" id="accept-id-Four">Accept Request</button><br>
+			<button onclick="denyReqFour()" id="deny-id-Four">Deny Request</button>
 		</div>
 	</div>
 </div>
 
 <div class="decision-container">
-<div class="decision-sub-container">
+	<div class="decision-sub-container">
 		<!--verification-->
 		<div class="verification-container">
 			<div class="user-info-container">
@@ -115,20 +117,21 @@
 		</div>
 		<div class="confirm-container">
 			<label>Confirm with a token:</label><br>
-			<input id="tokenValueFive" placeholder="323da@!*?YYZOLH&7" type="token" name=""><br>
-			<button onclick="confirmAdminFive()" id="confirm-token">Confirm</button>
+			<input id="tokenValFive" placeholder="323da@!*?YYZOLH&7" type="token" name=""><br>
+			<button onclick="confirmFive()" id="confirm-token">Confirm</button>
 		</div>
 		</div>
 		<!--accept or deny-->
 		<div class="accept-or-deny-container">
-			<label id="helpMeFive" class="hint"></label><br>
-			<button onclick="changeToMentorFive()" id="accept-id-five">Change To Mentor</button><br>
+			<label id="helpFive" class="hint"></label><br>
+			<button onclick="acceptReqFive()" id="accept-id-Five">Accept Request</button><br>
+			<button onclick="denyReqFive()" id="deny-id-Five">Deny Request</button>
 		</div>
 	</div>
 </div>
 
 <div class="decision-container">
-<div class="decision-sub-container">
+	<div class="decision-sub-container">
 		<!--verification-->
 		<div class="verification-container">
 			<div class="user-info-container">
@@ -137,14 +140,15 @@
 		</div>
 		<div class="confirm-container">
 			<label>Confirm with a token:</label><br>
-			<input id="tokenValueSix" placeholder="323da@!*?YYZOLH&7" type="token" name=""><br>
-			<button onclick="confirmAdminSix()" id="confirm-token">Confirm</button>
+			<input id="tokenValSix" placeholder="323da@!*?YYZOLH&7" type="token" name=""><br>
+			<button onclick="confirmSix()" id="confirm-token">Confirm</button>
 		</div>
 		</div>
 		<!--accept or deny-->
 		<div class="accept-or-deny-container">
-			<label id="helpMeSix" class="hint"></label><br>
-			<button onclick="changeToMentorSix()" id="accept-id-six">Change To Mentor</button><br>
+			<label id="helpSix" class="hint"></label><br>
+			<button onclick="acceptReqSix()" id="accept-id-Six">Accept Request</button><br>
+			<button onclick="denyReqSix()" id="deny-id-Six">Deny Request</button>
 		</div>
 	</div>
 </div>
@@ -152,7 +156,7 @@
 
 <div class="grid-one">
 <div class="decision-container">
-<div class="decision-sub-container">
+	<div class="decision-sub-container">
 		<!--verification-->
 		<div class="verification-container">
 			<div class="user-info-container">
@@ -161,20 +165,21 @@
 		</div>
 		<div class="confirm-container">
 			<label>Confirm with a token:</label><br>
-			<input id="tokenValueSeven" placeholder="323da@!*?YYZOLH&7" type="token" name=""><br>
-			<button onclick="confirmAdminSeven()" id="confirm-token">Confirm</button>
+			<input id="tokenValSeven" placeholder="323da@!*?YYZOLH&7" type="token" name=""><br>
+			<button onclick="confirmSeven()" id="confirm-token">Confirm</button>
 		</div>
 		</div>
 		<!--accept or deny-->
 		<div class="accept-or-deny-container">
-			<label id="helpMeSeven" class="hint"></label><br>
-			<button onclick="changeToMentorSeven()" id="accept-id-seven">Change To Mentor</button><br>
+			<label id="helpSeven" class="hint"></label><br>
+			<button onclick="acceptReqSeven()" id="accept-id-Seven">Accept Request</button><br>
+			<button onclick="denyReqSeven()" id="deny-id-Seven">Deny Request</button>
 		</div>
 	</div>
 </div>
 
 <div class="decision-container">
-<div class="decision-sub-container">
+	<div class="decision-sub-container">
 		<!--verification-->
 		<div class="verification-container">
 			<div class="user-info-container">
@@ -183,20 +188,21 @@
 		</div>
 		<div class="confirm-container">
 			<label>Confirm with a token:</label><br>
-			<input id="tokenValueEight" placeholder="323da@!*?YYZOLH&7" type="token" name=""><br>
-			<button onclick="confirmAdminEight()" id="confirm-token">Confirm</button>
+			<input id="tokenValEight" placeholder="323da@!*?YYZOLH&7" type="token" name=""><br>
+			<button onclick="confirmEight()" id="confirm-token">Confirm</button>
 		</div>
 		</div>
 		<!--accept or deny-->
 		<div class="accept-or-deny-container">
-			<label id="helpMeEight" class="hint"></label><br>
-			<button onclick="changeToMentorEight()" id="accept-id-eight">Change To Mentor</button><br>
+			<label id="helpEight" class="hint"></label><br>
+			<button onclick="acceptReqEight()" id="accept-id-Eight">Accept Request</button><br>
+			<button onclick="denyReqEight()" id="deny-id-Eight">Deny Request</button>
 		</div>
 	</div>
 </div>
 
 <div class="decision-container">
-<div class="decision-sub-container">
+	<div class="decision-sub-container">
 		<!--verification-->
 		<div class="verification-container">
 			<div class="user-info-container">
@@ -205,14 +211,15 @@
 		</div>
 		<div class="confirm-container">
 			<label>Confirm with a token:</label><br>
-			<input id="tokenValueNine" placeholder="323da@!*?YYZOLH&7" type="token" name=""><br>
-			<button onclick="confirmAdminNine()" id="confirm-token">Confirm</button>
+			<input id="tokenValNine" placeholder="323da@!*?YYZOLH&7" type="token" name=""><br>
+			<button onclick="confirmNine()" id="confirm-token">Confirm</button>
 		</div>
 		</div>
 		<!--accept or deny-->
 		<div class="accept-or-deny-container">
-			<label id="helpMeNine" class="hint"></label><br>
-			<button onclick="changeToMentorNine()" id="accept-id-nine">Change To Mentor</button><br>
+			<label id="helpNine" class="hint"></label><br>
+			<button onclick="acceptReqNine()" id="accept-id-Nine">Accept Request</button><br>
+			<button onclick="denyReqNine()" id="deny-id-Nine">Deny Request</button>
 		</div>
 	</div>
 </div>
@@ -220,7 +227,7 @@
 
 <div class="grid-one">
 <div class="decision-container">
-<div class="decision-sub-container">
+	<div class="decision-sub-container">
 		<!--verification-->
 		<div class="verification-container">
 			<div class="user-info-container">
@@ -229,20 +236,21 @@
 		</div>
 		<div class="confirm-container">
 			<label>Confirm with a token:</label><br>
-			<input id="tokenValueTen" placeholder="323da@!*?YYZOLH&7" type="token" name=""><br>
-			<button onclick="confirmAdminTen()" id="confirm-token">Confirm</button>
+			<input id="tokenValTen" placeholder="323da@!*?YYZOLH&7" type="token" name=""><br>
+			<button onclick="confirmTen()" id="confirm-token">Confirm</button>
 		</div>
 		</div>
 		<!--accept or deny-->
 		<div class="accept-or-deny-container">
-			<label id="helpMeTen" class="hint"></label><br>
-			<button onclick="changeToMentorTen()" id="accept-id-ten">Change To Mentor</button><br>
+			<label id="helpTen" class="hint"></label><br>
+			<button onclick="acceptReqTen()" id="accept-id-Ten">Accept Request</button><br>
+			<button onclick="denyReqTen()" id="deny-id-Ten">Deny Request</button>
 		</div>
 	</div>
 </div>
 
 <div class="decision-container">
-<div class="decision-sub-container">
+	<div class="decision-sub-container">
 		<!--verification-->
 		<div class="verification-container">
 			<div class="user-info-container">
@@ -251,20 +259,21 @@
 		</div>
 		<div class="confirm-container">
 			<label>Confirm with a token:</label><br>
-			<input id="tokenValueEleven" placeholder="323da@!*?YYZOLH&7" type="token" name=""><br>
-			<button onclick="confirmAdminEleven()" id="confirm-token">Confirm</button>
+			<input id="tokenValEleven" placeholder="323da@!*?YYZOLH&7" type="token" name=""><br>
+			<button onclick="confirmEleven()" id="confirm-token">Confirm</button>
 		</div>
 		</div>
 		<!--accept or deny-->
 		<div class="accept-or-deny-container">
-			<label id="helpMeEleven" class="hint"></label><br>
-			<button onclick="changeToMentorEleven()" id="accept-id-eleven">Change To Mentor</button><br>
+			<label id="helpEleven" class="hint"></label><br>
+			<button onclick="acceptReqEleven()" id="accept-id-Eleven">Accept Request</button><br>
+			<button onclick="denyReqEleven()" id="deny-id-Eleven">Deny Request</button>
 		</div>
 	</div>
 </div>
 
 <div class="decision-container">
-<div class="decision-sub-container">
+	<div class="decision-sub-container">
 		<!--verification-->
 		<div class="verification-container">
 			<div class="user-info-container">
@@ -273,14 +282,15 @@
 		</div>
 		<div class="confirm-container">
 			<label>Confirm with a token:</label><br>
-			<input id="tokenValueTwelve" placeholder="323da@!*?YYZOLH&7" type="token" name=""><br>
-			<button onclick="confirmAdminTwelve()" id="confirm-token">Confirm</button>
+			<input id="tokenValTwelve" placeholder="323da@!*?YYZOLH&7" type="token" name=""><br>
+			<button onclick="confirmTwelve()" id="confirm-token">Confirm</button>
 		</div>
 		</div>
 		<!--accept or deny-->
 		<div class="accept-or-deny-container">
-			<label id="helpMeTwelve" class="hint"></label><br>
-			<button onclick="changeToMentorTwelve()" id="accept-id-twelve">Change To Mentor</button><br>
+			<label id="helpTwelve" class="hint"></label><br>
+			<button onclick="acceptReqTwelve()" id="accept-id-twelve">Accept Request</button><br>
+			<button onclick="denyReqTwelve()" id="deny-id-twelve">Deny Request</button>
 		</div>
 	</div>
 </div>
@@ -288,7 +298,7 @@
 
 <div class="grid-one">
 <div class="decision-container">
-<div class="decision-sub-container">
+	<div class="decision-sub-container">
 		<!--verification-->
 		<div class="verification-container">
 			<div class="user-info-container">
@@ -297,20 +307,21 @@
 		</div>
 		<div class="confirm-container">
 			<label>Confirm with a token:</label><br>
-			<input id="tokenValueThirteen" placeholder="323da@!*?YYZOLH&7" type="token" name=""><br>
-			<button onclick="confirmAdminThirteen()" id="confirm-token">Confirm</button>
+			<input id="tokenValThirteen" placeholder="323da@!*?YYZOLH&7" type="token" name=""><br>
+			<button onclick="confirmThirteen()" id="confirm-token">Confirm</button>
 		</div>
 		</div>
 		<!--accept or deny-->
 		<div class="accept-or-deny-container">
-			<label id="helpMeThirteen" class="hint"></label><br>
-			<button onclick="changeToMentorThirteen()" id="accept-id-thirteen">Change To Mentor</button><br>
+			<label id="helpThirteen" class="hint"></label><br>
+			<button onclick="acceptReqThirteen()" id="accept-id-Thirteen">Accept Request</button><br>
+			<button onclick="denyReqThirteen()" id="deny-id-Thirteen">Deny Request</button>
 		</div>
 	</div>
 </div>
 
 <div class="decision-container">
-<div class="decision-sub-container">
+	<div class="decision-sub-container">
 		<!--verification-->
 		<div class="verification-container">
 			<div class="user-info-container">
@@ -319,20 +330,21 @@
 		</div>
 		<div class="confirm-container">
 			<label>Confirm with a token:</label><br>
-			<input id="tokenValueFourteen" placeholder="323da@!*?YYZOLH&7" type="token" name=""><br>
-			<button onclick="confirmAdminFourteen()" id="confirm-token">Confirm</button>
+			<input id="tokenValFourteen" placeholder="323da@!*?YYZOLH&7" type="token" name=""><br>
+			<button onclick="confirmFourteen()" id="confirm-token">Confirm</button>
 		</div>
 		</div>
 		<!--accept or deny-->
 		<div class="accept-or-deny-container">
-			<label id="helpMeFourteen" class="hint"></label><br>
-			<button onclick="changeToMentorFourteen()" id="accept-id-fourteen">Change To Mentor</button><br>
+			<label id="helpFourteen" class="hint"></label><br>
+			<button onclick="acceptReqFourteen()" id="accept-id-Fourteen">Accept Request</button><br>
+			<button onclick="denyReqFourteen()" id="deny-id-Fourteen">Deny Request</button>
 		</div>
 	</div>
 </div>
 
 <div class="decision-container">
-<div class="decision-sub-container">
+	<div class="decision-sub-container">
 		<!--verification-->
 		<div class="verification-container">
 			<div class="user-info-container">
@@ -341,14 +353,15 @@
 		</div>
 		<div class="confirm-container">
 			<label>Confirm with a token:</label><br>
-			<input id="tokenValueFifteen" placeholder="323da@!*?YYZOLH&7" type="token" name=""><br>
-			<button onclick="confirmAdminFifteen()" id="confirm-token">Confirm</button>
+			<input id="tokenValFifteen" placeholder="323da@!*?YYZOLH&7" type="token" name=""><br>
+			<button onclick="confirmFifteen()" id="confirm-token">Confirm</button>
 		</div>
 		</div>
 		<!--accept or deny-->
 		<div class="accept-or-deny-container">
-			<label id="helpMeFifteen" class="hint"></label><br>
-			<button onclick="changeToMentorFifteen()" id="accept-id-fifteen">Change To Mentor</button><br>
+			<label id="helpFifteen" class="hint"></label><br>
+			<button onclick="acceptReqFifteen()" id="accept-id-Fifteen">Accept Request</button><br>
+			<button onclick="denyReqFifteen()" id="deny-id-Fifteen">Deny Request</button>
 		</div>
 	</div>
 </div>
@@ -356,7 +369,7 @@
 
 <div class="grid-one">
 <div class="decision-container">
-<div class="decision-sub-container">
+	<div class="decision-sub-container">
 		<!--verification-->
 		<div class="verification-container">
 			<div class="user-info-container">
@@ -365,20 +378,21 @@
 		</div>
 		<div class="confirm-container">
 			<label>Confirm with a token:</label><br>
-			<input id="tokenValueSixteen" placeholder="323da@!*?YYZOLH&7" type="token" name=""><br>
-			<button onclick="confirmAdminSixteen()" id="confirm-token">Confirm</button>
+			<input id="tokenValSixteen" placeholder="323da@!*?YYZOLH&7" type="token" name=""><br>
+			<button onclick="confirmSixteen()" id="confirm-token">Confirm</button>
 		</div>
 		</div>
 		<!--accept or deny-->
 		<div class="accept-or-deny-container">
-			<label id="helpMeSixteen" class="hint"></label><br>
-			<button onclick="changeToMentorSixteen()" id="accept-id-sixteen">Change To Mentor</button><br>
+			<label id="helpSixteen" class="hint"></label><br>
+			<button onclick="acceptReqSixteen()" id="accept-id-Sixteen">Accept Request</button><br>
+			<button onclick="denyReqSixteen()" id="deny-id-Sixteen">Deny Request</button>
 		</div>
 	</div>
 </div>
 
 <div class="decision-container">
-<div class="decision-sub-container">
+	<div class="decision-sub-container">
 		<!--verification-->
 		<div class="verification-container">
 			<div class="user-info-container">
@@ -387,20 +401,21 @@
 		</div>
 		<div class="confirm-container">
 			<label>Confirm with a token:</label><br>
-			<input id="tokenValueSeventeen" placeholder="323da@!*?YYZOLH&7" type="token" name=""><br>
-			<button onclick="confirmAdminSeventeen()" id="confirm-token">Confirm</button>
+			<input id="tokenValSeventeen" placeholder="323da@!*?YYZOLH&7" type="token" name=""><br>
+			<button onclick="confirmSeventeen()" id="confirm-token">Confirm</button>
 		</div>
 		</div>
 		<!--accept or deny-->
 		<div class="accept-or-deny-container">
-			<label id="helpMeSeventeen" class="hint"></label><br>
-			<button onclick="changeToMentorSeventeen()" id="accept-id-seventeen">Change To Mentor</button><br>
+			<label id="helpSeventeen" class="hint"></label><br>
+			<button onclick="acceptReqSeventeen()" id="accept-id-Seventeen">Accept Request</button><br>
+			<button onclick="denyReqSeventeen()" id="deny-id-Seventeen">Deny Request</button>
 		</div>
 	</div>
 </div>
 
 <div class="decision-container">
-<div class="decision-sub-container">
+	<div class="decision-sub-container">
 		<!--verification-->
 		<div class="verification-container">
 			<div class="user-info-container">
@@ -409,14 +424,15 @@
 		</div>
 		<div class="confirm-container">
 			<label>Confirm with a token:</label><br>
-			<input id="tokenValueEighteen" placeholder="323da@!*?YYZOLH&7" type="token" name=""><br>
-			<button onclick="confirmAdminEighteen()" id="confirm-token">Confirm</button>
+			<input id="tokenValEighteen" placeholder="323da@!*?YYZOLH&7" type="token" name=""><br>
+			<button onclick="confirmEighteen()" id="confirm-token">Confirm</button>
 		</div>
 		</div>
 		<!--accept or deny-->
 		<div class="accept-or-deny-container">
-			<label id="helpMeEighteen" class="hint"></label><br>
-			<button onclick="changeToMentorEighteen()" id="accept-id-eighteen">Change To Mentor</button><br>
+			<label id="helpEighteen" class="hint"></label><br>
+			<button onclick="acceptReqEighteen()" id="accept-id-Eighteen">Accept Request</button><br>
+			<button onclick="denyReqEighteen()" id="deny-id-Eighteen">Deny Request</button>
 		</div>
 	</div>
 </div>
@@ -424,7 +440,7 @@
 
 <div class="grid-one">
 <div class="decision-container">
-<div class="decision-sub-container">
+	<div class="decision-sub-container">
 		<!--verification-->
 		<div class="verification-container">
 			<div class="user-info-container">
@@ -433,20 +449,43 @@
 		</div>
 		<div class="confirm-container">
 			<label>Confirm with a token:</label><br>
-			<input id="tokenValueNineteen" placeholder="323da@!*?YYZOLH&7" type="token" name=""><br>
-			<button onclick="confirmAdminNineteen()" id="confirm-token">Confirm</button>
+			<input id="tokenValNineteen" placeholder="323da@!*?YYZOLH&7" type="token" name=""><br>
+			<button onclick="confirmNineteen()" id="confirm-token">Confirm</button>
 		</div>
 		</div>
 		<!--accept or deny-->
 		<div class="accept-or-deny-container">
-			<label id="helpMeNineteen" class="hint"></label><br>
-			<button onclick="changeToMentorNineteen()" id="accept-id-nineteen">Change To Mentor</button><br>
+			<label id="helpNineteen" class="hint"></label><br>
+			<button onclick="acceptReqNineteen()" id="accept-id-Nineteen">Accept Request</button><br>
+			<button onclick="denyReqNineteen()" id="deny-id-Nineteen">Deny Request</button>
+		</div>
+	</div>
+</div>
+<div class="decision-container">
+	<div class="decision-sub-container">
+		<!--verification-->
+		<div class="verification-container">
+			<div class="user-info-container">
+			<h4><bold>User email:</bold><br><span>edgarmutangana@gmail.com</span></h4>
+			<h4><bold>Mentor requested id:</bold><br><span>#242344</span></h4>
+		</div>
+		<div class="confirm-container">
+			<label>Confirm with a token:</label><br>
+			<input id="tokenValTwenty" placeholder="323da@!*?YYZOLH&7" type="token" name=""><br>
+			<button onclick="confirmTwenty()" id="confirm-token">Confirm</button>
+		</div>
+		</div>
+		<!--accept or deny-->
+		<div class="accept-or-deny-container">
+			<label id="helpTwenty" class="hint"></label><br>
+			<button onclick="acceptReqTwenty()" id="accept-id-twenty">Accept Request</button><br>
+			<button onclick="denyReqTwenty()" id="deny-id-twenty">Deny Request</button>
 		</div>
 	</div>
 </div>
 
 <div class="decision-container">
-<div class="decision-sub-container">
+	<div class="decision-sub-container">
 		<!--verification-->
 		<div class="verification-container">
 			<div class="user-info-container">
@@ -455,41 +494,20 @@
 		</div>
 		<div class="confirm-container">
 			<label>Confirm with a token:</label><br>
-			<input id="tokenValueTwenty" placeholder="323da@!*?YYZOLH&7" type="token" name=""><br>
-			<button onclick="confirmAdminTwenty()" id="confirm-token">Confirm</button>
+			<input id="tokenValTwentyOne" placeholder="323da@!*?YYZOLH&7" type="token" name=""><br>
+			<button onclick="confirmTwentyOne()" id="confirm-token">Confirm</button>
 		</div>
 		</div>
 		<!--accept or deny-->
 		<div class="accept-or-deny-container">
-			<label id="helpMeTwenty" class="hint"></label><br>
-			<button onclick="changeToMentorTwenty()" id="accept-id-twenty">Change To Mentor</button><br>
-		</div>
-	</div>
-</div>
-
-<div class="decision-container">
-<div class="decision-sub-container">
-		<!--verification-->
-		<div class="verification-container">
-			<div class="user-info-container">
-			<h4><bold>User email:</bold><br><span>edgarmutangana@gmail.com</span></h4>
-			<h4><bold>Mentor requested id:</bold><br><span>#242344</span></h4>
-		</div>
-		<div class="confirm-container">
-			<label>Confirm with a token:</label><br>
-			<input id="tokenValueTwentyOne" placeholder="323da@!*?YYZOLH&7" type="token" name=""><br>
-			<button onclick="confirmAdminTwentyOne()" id="confirm-token">Confirm</button>
-		</div>
-		</div>
-		<!--accept or deny-->
-		<div class="accept-or-deny-container">
-			<label id="helpMeTwentyOne" class="hint"></label><br>
-			<button onclick="changeToMentorTwentyOne()" id="accept-id-twenty-one">Change To Mentor</button><br>
+			<label id="helpTwentyOne" class="hint"></label><br>
+			<button onclick="acceptReqTwentyOne()" id="accept-id-TwentyOne">Accept Request</button><br>
+			<button onclick="denyReqTwentyOne()" id="deny-id-TwentyOne">Deny Request</button>
 		</div>
 	</div>
 </div>
 </div><br>
 
-<script type="text/javascript" src="./adminindex.js"></script> 
+    <script type="text/javascript" src="../js/mentordecisioncard.js"></script>
 </body>
 </html>
