@@ -1,0 +1,481 @@
+body {
+	margin: 0;
+	padding: 0;
+	overflow: scroll;
+}
+.grid-one {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  display: flex;
+}
+/*head*/
+.header-container {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100px;
+	background-color: white;
+	box-shadow: 0 0 20px 20px #0000001f;
+	align-content: grid;
+	display: flex;
+	overflow: hidden;
+	font-size: 30px;
+	font-weight: lighter;
+	font-family: fantasy;
+	color: black;
+	position: fixed;
+	z-index: 1;
+}
+.header-text {
+	margin: 0;
+	padding: 10px 0 0 100px;
+	width: 40%;
+	height: 100%;
+	overflow: hidden;
+}
+.zero-edit {
+	margin: 0;
+	padding: 30px 0 0 0;
+	width: 20%;
+	height: 100%;
+	overflow: hidden;
+}
+.signout-link {
+	margin: 0;
+	padding: 30px 0 0 0;
+	width: 40%;
+	height: 100%;
+	overflow: hidden;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.signout-link:hover {
+	background-color: #b2b2b2;
+}
+
+/*end head*/
+
+
+		/*responsiveness*/
+		@media(max-width: 1300px) {
+			body {
+	margin: 0;
+	padding: 0;
+	overflow: scroll;
+}
+.grid-one {
+  width: 100%;
+  height: 1600px;
+  overflow: hidden;
+  display: grid;
+}
+/*head*/
+.header-container {
+	margin: 0;
+	padding: 0;
+	width: 1300px;
+	height: 100px;
+	background-color: white;
+	box-shadow: 0 0 20px 20px #0000001f;
+	align-content: grid;
+	display: flex;
+	overflow: hidden;
+	font-size: 30px;
+	font-weight: lighter;
+	font-family: fantasy;
+	color: black;
+}
+.header-text {
+	margin: 0;
+	padding: 10px 0 0 100px;
+	width: 40%;
+	height: 100%;
+	overflow: hidden;
+}
+.zero-edit {
+	margin: 0;
+	padding: 30px 0 0 0;
+	width: 20%;
+	height: 100%;
+	overflow: hidden;
+}
+.signout-link {
+	margin: 0;
+	padding: 30px 0 0 0;
+	width: 40%;
+	height: 100%;
+	overflow: hidden;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.signout-link:hover {
+	background-color: #b2b2b2;
+}
+
+/*end head*/
+		}
+		/*ipad pro*/
+		@media(max-width: 1020px) {
+        	body {
+	margin: 0;
+	padding: 0;
+	overflow: scroll;
+}
+.grid-one {
+  width: 100%;
+  height: 1600px;
+  overflow: hidden;
+  display: grid;
+}
+/*head*/
+.header-container {
+	margin: 0;
+	padding: 0;
+	width: 1020px;
+	height: 100px;
+	background-color: white;
+	box-shadow: 0 0 20px 20px #0000001f;
+	align-content: grid;
+	display: flex;
+	overflow: hidden;
+	font-size: 25px;
+	font-weight: lighter;
+	font-family: fantasy;
+	color: black;
+}
+.header-text {
+	margin: 0;
+	padding: 10px 0 0 100px;
+	width: 40%;
+	height: 100%;
+	overflow: hidden;
+}
+.zero-edit {
+	margin: 0;
+	padding: 30px 0 0 0;
+	width: 20%;
+	height: 100%;
+	overflow: hidden;
+}
+.signout-link {
+	margin: 0;
+	padding: 30px 0 0 0;
+	width: 40%;
+	height: 100%;
+	overflow: hidden;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.signout-link:hover {
+	background-color: #b2b2b2;
+}
+
+/*end head*/  
+		}
+		/*ipad*/
+		@media(max-width: 768px) {
+        	body {
+	margin: 0;
+	padding: 0;
+	overflow: scroll;
+}
+.grid-one {
+  width: 100%;
+  height: 1600px;
+  overflow: hidden;
+  display: grid;
+}
+/*head*/
+.header-container {
+	margin: 0;
+	padding: 0;
+	width: 768px;
+	height: 100px;
+	background-color: white;
+	box-shadow: 0 0 20px 20px #0000001f;
+	align-content: grid;
+	display: flex;
+	overflow: hidden;
+	font-size: 18px;
+	font-weight: lighter;
+	font-family: fantasy;
+	color: black;
+}
+.header-text {
+	margin: 0;
+	padding: 18px 0 0 100px;
+	width: 40%;
+	height: 100%;
+	overflow: hidden;
+}
+.zero-edit {
+	margin: 0;
+	padding: 30px 0 0 0;
+	width: 20%;
+	height: 100%;
+	overflow: hidden;
+}
+.signout-link {
+	margin: 0;
+	padding: 30px 0 0 0;
+	width: 40%;
+	height: 100%;
+	overflow: hidden;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.signout-link:hover {
+	background-color: #b2b2b2;
+}
+
+/*end head*/
+		}
+		/*iphone 6/7/8 plus*/
+		@media(max-width: 414px) {
+        	body {
+	margin: 0;
+	padding: 0;
+	overflow: scroll;
+}
+.grid-one {
+  width: 100%;
+  height: 1600px;
+  overflow: hidden;
+  display: grid;
+}
+/*head*/
+.header-container {
+	margin: 0;
+	padding: 0;
+	width: 414px;
+	height: 100px;
+	background-color: white;
+	box-shadow: 0 0 20px 20px #0000001f;
+	align-content: grid;
+	display: flex;
+	overflow: hidden;
+	font-size: 10px;
+	font-weight: lighter;
+	font-family: fantasy;
+	color: black;
+}
+.header-text {
+	margin: 0;
+	padding: 30px 0 0 100px;
+	width: 40%;
+	height: 100%;
+	overflow: hidden;
+}
+.zero-edit {
+	margin: 0;
+	padding: 30px 0 0 0;
+	width: 20%;
+	height: 100%;
+	overflow: hidden;
+}
+.signout-link {
+	margin: 0;
+	padding: 30px 0 0 0;
+	width: 40%;
+	height: 100%;
+	overflow: hidden;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.signout-link:hover {
+	background-color: #b2b2b2;
+}
+
+/*end head*/
+		}
+		/*iphone 5/se*/
+		@media(max-width: 320px) {
+        	body {
+	margin: 0;
+	padding: 0;
+	overflow: scroll;
+}
+.grid-one {
+  width: 100%;
+  height: 1600px;
+  overflow: hidden;
+  display: grid;
+}
+/*head*/
+.header-container {
+	margin: 0;
+	padding: 0;
+	width: 320px;
+	height: 100px;
+	background-color: white;
+	box-shadow: 0 0 20px 20px #0000001f;
+	align-content: grid;
+	display: flex;
+	overflow: hidden;
+	font-size: 16px;
+	font-weight: lighter;
+	font-family: fantasy;
+	color: black;
+}
+.header-text {
+	margin: 0;
+	padding: 10px 0 0 100px;
+	width: 40%;
+	height: 100%;
+	overflow: hidden;
+}
+.zero-edit {
+	margin: 0;
+	padding: 30px 0 0 0;
+	width: 20%;
+	height: 100%;
+	overflow: hidden;
+}
+.signout-link {
+	margin: 0;
+	padding: 30px 0 0 0;
+	width: 40%;
+	height: 100%;
+	overflow: hidden;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.signout-link:hover {
+	background-color: #b2b2b2;
+}
+
+/*end head*/
+		}
+		/*pixel2 xl*/
+		@media(max-width: 411px) {
+        	body {
+	margin: 0;
+	padding: 0;
+	overflow: scroll;
+}
+.grid-one {
+  width: 100%;
+  height: 1600px;
+  overflow: hidden;
+  display: grid;
+}
+/*head*/
+.header-container {
+	margin: 0;
+	padding: 0;
+	width: 411px;
+	height: 100px;
+	background-color: white;
+	box-shadow: 0 0 20px 20px #0000001f;
+	align-content: grid;
+	display: flex;
+	overflow: hidden;
+	font-size: 12px;
+	font-weight: lighter;
+	font-family: fantasy;
+	color: black;
+}
+.header-text {
+	margin: 0;
+	padding: 10px 0 0 100px;
+	width: 40%;
+	height: 100%;
+	overflow: hidden;
+}
+.zero-edit {
+	margin: 0;
+	padding: 30px 0 0 0;
+	width: 20%;
+	height: 100%;
+	overflow: hidden;
+}
+.signout-link {
+	margin: 0;
+	padding: 30px 0 0 0;
+	width: 40%;
+	height: 100%;
+	overflow: hidden;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.signout-link:hover {
+	background-color: #b2b2b2;
+}
+
+/*end head*/
+		}
+		/*galaxy s5*/
+		@media(max-width: 360px) {
+        	body {
+	margin: 0;
+	padding: 0;
+	overflow: scroll;
+}
+.grid-one {
+  width: 100%;
+  height: 1600px;
+  overflow: hidden;
+  display: grid;
+}
+/*head*/
+.header-container {
+	margin: 0;
+	padding: 0;
+	width: 360px;
+	height: 100px;
+	background-color: white;
+	box-shadow: 0 0 20px 20px #0000001f;
+	align-content: grid;
+	display: flex;
+	overflow: hidden;
+	font-size: 12px;
+	font-weight: lighter;
+	font-family: fantasy;
+	color: black;
+}
+.header-text {
+	margin: 0;
+	padding: 10px 0 0 100px;
+	width: 40%;
+	height: 100%;
+	overflow: hidden;
+}
+.zero-edit {
+	margin: 0;
+	padding: 30px 5px 0 0;
+	width: 20%;
+	height: 100%;
+	overflow: hidden;
+}
+.signout-link {
+	margin: 0;
+	padding: 30px 0 0 0;
+	width: 40%;
+	height: 100%;
+	overflow: hidden;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.signout-link:hover {
+	background-color: #b2b2b2;
+}
+
+/*end head*/
+		}
