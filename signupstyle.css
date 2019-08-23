@@ -1,0 +1,918 @@
+/*sign up view*/
+body {
+	margin: 0;
+	padding: 0;
+}
+.app-name-container {
+	width: 100%;
+	height: 50px;
+	margin: 0 0 15px 0;
+	padding: 0;
+	overflow: hidden;
+	text-align: center;
+}
+.app-name {
+	font-size: 30px;
+	font-family: fantasy;
+	font-weight: lighter;
+}
+		.signUp-container {
+			width: 300px;
+			height: 500px;
+			margin: auto;
+			padding: 0;
+			border: 1px solid #00000057;
+            border-radius: 4px;
+            text-overflow: none;
+		}
+		.cont-one {
+			width: 100%; 
+			height: 125px;
+			margin: 0;
+			padding: 0;
+			text-overflow: none;
+		}
+		.cont-one h1 {
+			    text-align: center;
+    			color: black;
+    			font-family: fantasy;
+    			font-style: normal;
+    			font-stretch: normal;
+    			font-kerning: normal;
+    			font-weight: lighter;
+    			font-size: -webkit-xxx-large;
+    			padding: 30px 0 0 0;
+    			margin: auto;
+		}
+		.cont-two {
+            width: 100%; 
+            height: 60px;
+            margin: 0;
+            padding: 0;
+		}
+		.cont-two-label-container {
+			width: 100%;
+			height: 20px;
+			margin: 0;
+			padding: 0;
+		}
+		.cont-two-input-container {
+			width: 100%;
+			height: 40px;
+			margin: 0;
+			padding: 0;
+		}
+		.labelClass {
+            margin: 0 0 0 30px;
+            padding: 0;
+            font-size: 16px;
+            font-family: fantasy;
+            font-weight: lighter;
+		} 
+		.inputClass {
+            margin: 0 0 0 30px;
+            padding: 5px;
+            width: 210px;
+            height: 20px;
+		}
+		.cont-three {
+            width: 100%; 
+            height: 125px;
+            margin: 0 0 20px 0;
+            padding: 0;
+		}
+		.cont-three-one {
+			width: 100%;
+			height: 62.5px;
+			margin: 0;
+			padding: 0;
+		}
+		.cont-four {
+            width: 100%; 
+            height:	125px;
+            margin: 0;
+            padding: 0;	
+            display: grid; 	
+		}
+		.cont-four a {
+           text-decoration: none;
+           width: 270px;
+           height: 20px;
+           background-color: #00000085;
+           margin: 5px 0 0 10px;
+           padding: 5px;
+           font-family: fantasy;
+           font-weight: lighter;
+           font-size: 16px;
+           text-align: center;
+           color: white;
+		}
+		.cont-four a:hover {
+		   background-color: #00000057;
+		}
+		/*responsiveness*/
+		/*ipad pro*/
+		@media(max-width: 1020px) {
+        /*sign up view*/
+body {
+	margin: 0;
+	padding: 0;
+}
+.app-name-container {
+	width: 100%;
+	height: 50px;
+	margin: 0 0 15px 0;
+	padding: 0;
+	overflow: hidden;
+	text-align: center;
+}
+.app-name {
+	font-size: 30px;
+	font-family: fantasy;
+	font-weight: lighter;
+}
+		.signUp-container {
+			width: 300px;
+			height: 500px;
+			margin: auto;
+			padding: 0;
+			border: 1px solid #00000057;
+            border-radius: 4px;
+            text-overflow: none;
+		}
+		.cont-one {
+			width: 100%; 
+			height: 125px;
+			margin: 0;
+			padding: 0;
+			text-overflow: none;
+		}
+		.cont-one h1 {
+			    text-align: center;
+    			color: black;
+    			font-family: fantasy;
+    			font-style: normal;
+    			font-stretch: normal;
+    			font-kerning: normal;
+    			font-weight: lighter;
+    			font-size: -webkit-xxx-large;
+    			padding: 30px 0 0 0;
+    			margin: auto;
+		}
+		.cont-two {
+            width: 100%; 
+            height: 60px;
+            margin: 0;
+            padding: 0;
+		}
+		.cont-two-label-container {
+			width: 100%;
+			height: 20px;
+			margin: 0;
+			padding: 0;
+		}
+		.cont-two-input-container {
+			width: 100%;
+			height: 40px;
+			margin: 0;
+			padding: 0;
+		}
+		.labelClass {
+            margin: 0 0 0 30px;
+            padding: 0;
+            font-size: 16px;
+            font-family: fantasy;
+            font-weight: lighter;
+		} 
+		.inputClass {
+            margin: 0 0 0 30px;
+            padding: 5px;
+            width: 210px;
+            height: 20px;
+		}
+		.cont-three {
+            width: 100%; 
+            height: 125px;
+            margin: 0 0 20px 0;
+            padding: 0;
+		}
+		.cont-three-one {
+			width: 100%;
+			height: 62.5px;
+			margin: 0;
+			padding: 0;
+		}
+		.cont-four {
+            width: 100%; 
+            height:	125px;
+            margin: 0;
+            padding: 0;	
+            display: grid; 	
+		}
+		.cont-four a {
+           text-decoration: none;
+           width: 270px;
+           height: 20px;
+           background-color: #00000085;
+           margin: 5px 0 0 10px;
+           padding: 5px;
+           font-family: fantasy;
+           font-weight: lighter;
+           font-size: 16px;
+           text-align: center;
+           color: white;
+		}
+		.cont-four a:hover {
+		   background-color: #00000057;
+		}  
+		}
+		/*ipad*/
+		@media(max-width: 768px) {
+        /*sign up view*/
+body {
+	margin: 0;
+	padding: 0;
+}
+.app-name-container {
+	width: 100%;
+	height: 50px;
+	margin: 0 0 15px 0;
+	padding: 0;
+	overflow: hidden;
+	text-align: center;
+}
+.app-name {
+	font-size: 30px;
+	font-family: fantasy;
+	font-weight: lighter;
+}
+		.signUp-container {
+			width: 300px;
+			height: 500px;
+			margin: auto;
+			padding: 0;
+			border: 1px solid #00000057;
+            border-radius: 4px;
+            text-overflow: none;
+		}
+		.cont-one {
+			width: 100%; 
+			height: 125px;
+			margin: 0;
+			padding: 0;
+			text-overflow: none;
+		}
+		.cont-one h1 {
+			    text-align: center;
+    			color: black;
+    			font-family: fantasy;
+    			font-style: normal;
+    			font-stretch: normal;
+    			font-kerning: normal;
+    			font-weight: lighter;
+    			font-size: -webkit-xxx-large;
+    			padding: 30px 0 0 0;
+    			margin: auto;
+		}
+		.cont-two {
+            width: 100%; 
+            height: 60px;
+            margin: 0;
+            padding: 0;
+		}
+		.cont-two-label-container {
+			width: 100%;
+			height: 20px;
+			margin: 0;
+			padding: 0;
+		}
+		.cont-two-input-container {
+			width: 100%;
+			height: 40px;
+			margin: 0;
+			padding: 0;
+		}
+		.labelClass {
+            margin: 0 0 0 30px;
+            padding: 0;
+            font-size: 16px;
+            font-family: fantasy;
+            font-weight: lighter;
+		} 
+		.inputClass {
+            margin: 0 0 0 30px;
+            padding: 5px;
+            width: 210px;
+            height: 20px;
+		}
+		.cont-three {
+            width: 100%; 
+            height: 125px;
+            margin: 0 0 20px 0;
+            padding: 0;
+		}
+		.cont-three-one {
+			width: 100%;
+			height: 62.5px;
+			margin: 0;
+			padding: 0;
+		}
+		.cont-four {
+            width: 100%; 
+            height:	125px;
+            margin: 0;
+            padding: 0;	
+            display: grid; 	
+		}
+		.cont-four a {
+           text-decoration: none;
+           width: 270px;
+           height: 20px;
+           background-color: #00000085;
+           margin: 5px 0 0 10px;
+           padding: 5px;
+           font-family: fantasy;
+           font-weight: lighter;
+           font-size: 16px;
+           text-align: center;
+           color: white;
+		}
+		.cont-four a:hover {
+		   background-color: #00000057;
+		}
+		}
+		/*iphone x*/
+		@media(max-width: 375px) {
+        /*sign up view*/
+body {
+	margin: 0;
+	padding: 0;
+}
+.app-name-container {
+	width: 100%;
+	height: 50px;
+	margin: 0 0 15px 0;
+	padding: 0;
+	overflow: hidden;
+	text-align: center;
+}
+.app-name {
+	font-size: 30px;
+	font-family: fantasy;
+	font-weight: lighter;
+}
+		.signUp-container {
+			width: 300px;
+			height: 500px;
+			margin: auto;
+			padding: 0;
+			border: 1px solid #00000057;
+            border-radius: 4px;
+            text-overflow: none;
+		}
+		.cont-one {
+			width: 100%; 
+			height: 125px;
+			margin: 0;
+			padding: 0;
+			text-overflow: none;
+		}
+		.cont-one h1 {
+			    text-align: center;
+    			color: black;
+    			font-family: fantasy;
+    			font-style: normal;
+    			font-stretch: normal;
+    			font-kerning: normal;
+    			font-weight: lighter;
+    			font-size: -webkit-xxx-large;
+    			padding: 30px 0 0 0;
+    			margin: auto;
+		}
+		.cont-two {
+            width: 100%; 
+            height: 60px;
+            margin: 0;
+            padding: 0;
+		}
+		.cont-two-label-container {
+			width: 100%;
+			height: 20px;
+			margin: 0;
+			padding: 0;
+		}
+		.cont-two-input-container {
+			width: 100%;
+			height: 40px;
+			margin: 0;
+			padding: 0;
+		}
+		.labelClass {
+            margin: 0 0 0 30px;
+            padding: 0;
+            font-size: 16px;
+            font-family: fantasy;
+            font-weight: lighter;
+		} 
+		.inputClass {
+            margin: 0 0 0 30px;
+            padding: 5px;
+            width: 210px;
+            height: 20px;
+		}
+		.cont-three {
+            width: 100%; 
+            height: 125px;
+            margin: 0 0 20px 0;
+            padding: 0;
+		}
+		.cont-three-one {
+			width: 100%;
+			height: 62.5px;
+			margin: 0;
+			padding: 0;
+		}
+		.cont-four {
+            width: 100%; 
+            height:	125px;
+            margin: 0;
+            padding: 0;	
+            display: grid; 	
+		}
+		.cont-four a {
+           text-decoration: none;
+           width: 270px;
+           height: 20px;
+           background-color: #00000085;
+           margin: 5px 0 0 10px;
+           padding: 5px;
+           font-family: fantasy;
+           font-weight: lighter;
+           font-size: 16px;
+           text-align: center;
+           color: white;
+		}
+		.cont-four a:hover {
+		   background-color: #00000057;
+		} 
+		}
+		/*iphone 6/7/8 plus*/
+		@media(max-width: 414px) {
+        /*sign up view*/
+body {
+	margin: 0;
+	padding: 0;
+}
+.app-name-container {
+	width: 100%;
+	height: 50px;
+	margin: 0 0 15px 0;
+	padding: 0;
+	overflow: hidden;
+	text-align: center;
+}
+.app-name {
+	font-size: 30px;
+	font-family: fantasy;
+	font-weight: lighter;
+}
+		.signUp-container {
+			width: 300px;
+			height: 500px;
+			margin: auto;
+			padding: 0;
+			border: 1px solid #00000057;
+            border-radius: 4px;
+            text-overflow: none;
+		}
+		.cont-one {
+			width: 100%; 
+			height: 125px;
+			margin: 0;
+			padding: 0;
+			text-overflow: none;
+		}
+		.cont-one h1 {
+			    text-align: center;
+    			color: black;
+    			font-family: fantasy;
+    			font-style: normal;
+    			font-stretch: normal;
+    			font-kerning: normal;
+    			font-weight: lighter;
+    			font-size: -webkit-xxx-large;
+    			padding: 30px 0 0 0;
+    			margin: auto;
+		}
+		.cont-two {
+            width: 100%; 
+            height: 60px;
+            margin: 0;
+            padding: 0;
+		}
+		.cont-two-label-container {
+			width: 100%;
+			height: 20px;
+			margin: 0;
+			padding: 0;
+		}
+		.cont-two-input-container {
+			width: 100%;
+			height: 40px;
+			margin: 0;
+			padding: 0;
+		}
+		.labelClass {
+            margin: 0 0 0 30px;
+            padding: 0;
+            font-size: 16px;
+            font-family: fantasy;
+            font-weight: lighter;
+		} 
+		.inputClass {
+            margin: 0 0 0 30px;
+            padding: 5px;
+            width: 210px;
+            height: 20px;
+		}
+		.cont-three {
+            width: 100%; 
+            height: 125px;
+            margin: 0 0 20px 0;
+            padding: 0;
+		}
+		.cont-three-one {
+			width: 100%;
+			height: 62.5px;
+			margin: 0;
+			padding: 0;
+		}
+		.cont-four {
+            width: 100%; 
+            height:	125px;
+            margin: 0;
+            padding: 0;	
+            display: grid; 	
+		}
+		.cont-four a {
+           text-decoration: none;
+           width: 270px;
+           height: 20px;
+           background-color: #00000085;
+           margin: 5px 0 0 10px;
+           padding: 5px;
+           font-family: fantasy;
+           font-weight: lighter;
+           font-size: 16px;
+           text-align: center;
+           color: white;
+		}
+		.cont-four a:hover {
+		   background-color: #00000057;
+		}  
+		}
+		/*iphone 5/se*/
+		@media(max-width: 320px) {
+        /*sign up view*/
+body {
+	margin: 0;
+	padding: 0;
+}
+.app-name-container {
+	width: 100%;
+	height: 50px;
+	margin: 0 0 15px 0;
+	padding: 0;
+	overflow: hidden;
+	text-align: center;
+}
+.app-name {
+	font-size: 30px;
+	font-family: fantasy;
+	font-weight: lighter;
+}
+		.signUp-container {
+			width: 300px;
+			height: 500px;
+			margin: auto;
+			padding: 0;
+			border: 1px solid #00000057;
+            border-radius: 4px;
+            text-overflow: none;
+		}
+		.cont-one {
+			width: 100%; 
+			height: 125px;
+			margin: 0;
+			padding: 0;
+			text-overflow: none;
+		}
+		.cont-one h1 {
+			    text-align: center;
+    			color: black;
+    			font-family: fantasy;
+    			font-style: normal;
+    			font-stretch: normal;
+    			font-kerning: normal;
+    			font-weight: lighter;
+    			font-size: -webkit-xxx-large;
+    			padding: 30px 0 0 0;
+    			margin: auto;
+		}
+		.cont-two {
+            width: 100%; 
+            height: 60px;
+            margin: 0;
+            padding: 0;
+		}
+		.cont-two-label-container {
+			width: 100%;
+			height: 20px;
+			margin: 0;
+			padding: 0;
+		}
+		.cont-two-input-container {
+			width: 100%;
+			height: 40px;
+			margin: 0;
+			padding: 0;
+		}
+		.labelClass {
+            margin: 0 0 0 30px;
+            padding: 0;
+            font-size: 16px;
+            font-family: fantasy;
+            font-weight: lighter;
+		} 
+		.inputClass {
+            margin: 0 0 0 30px;
+            padding: 5px;
+            width: 210px;
+            height: 20px;
+		}
+		.cont-three {
+            width: 100%; 
+            height: 125px;
+            margin: 0 0 20px 0;
+            padding: 0;
+		}
+		.cont-three-one {
+			width: 100%;
+			height: 62.5px;
+			margin: 0;
+			padding: 0;
+		}
+		.cont-four {
+            width: 100%; 
+            height:	125px;
+            margin: 0;
+            padding: 0;	
+            display: grid; 	
+		}
+		.cont-four a {
+           text-decoration: none;
+           width: 270px;
+           height: 20px;
+           background-color: #00000085;
+           margin: 5px 0 0 10px;
+           padding: 5px;
+           font-family: fantasy;
+           font-weight: lighter;
+           font-size: 16px;
+           text-align: center;
+           color: white;
+		}
+		.cont-four a:hover {
+		   background-color: #00000057;
+		}  
+		}
+		/*pixel2 xl*/
+		@media(max-width: 411px) {
+        /*sign up view*/
+body {
+	margin: 0;
+	padding: 0;
+}
+.app-name-container {
+	width: 100%;
+	height: 50px;
+	margin: 0 0 15px 0;
+	padding: 0;
+	overflow: hidden;
+	text-align: center;
+}
+.app-name {
+	font-size: 30px;
+	font-family: fantasy;
+	font-weight: lighter;
+}
+		.signUp-container {
+			width: 300px;
+			height: 500px;
+			margin: auto;
+			padding: 0;
+			border: 1px solid #00000057;
+            border-radius: 4px;
+            text-overflow: none;
+		}
+		.cont-one {
+			width: 100%; 
+			height: 125px;
+			margin: 0;
+			padding: 0;
+			text-overflow: none;
+		}
+		.cont-one h1 {
+			    text-align: center;
+    			color: black;
+    			font-family: fantasy;
+    			font-style: normal;
+    			font-stretch: normal;
+    			font-kerning: normal;
+    			font-weight: lighter;
+    			font-size: -webkit-xxx-large;
+    			padding: 30px 0 0 0;
+    			margin: auto;
+		}
+		.cont-two {
+            width: 100%; 
+            height: 60px;
+            margin: 0;
+            padding: 0;
+		}
+		.cont-two-label-container {
+			width: 100%;
+			height: 20px;
+			margin: 0;
+			padding: 0;
+		}
+		.cont-two-input-container {
+			width: 100%;
+			height: 40px;
+			margin: 0;
+			padding: 0;
+		}
+		.labelClass {
+            margin: 0 0 0 30px;
+            padding: 0;
+            font-size: 16px;
+            font-family: fantasy;
+            font-weight: lighter;
+		} 
+		.inputClass {
+            margin: 0 0 0 30px;
+            padding: 5px;
+            width: 210px;
+            height: 20px;
+		}
+		.cont-three {
+            width: 100%; 
+            height: 125px;
+            margin: 0 0 20px 0;
+            padding: 0;
+		}
+		.cont-three-one {
+			width: 100%;
+			height: 62.5px;
+			margin: 0;
+			padding: 0;
+		}
+		.cont-four {
+            width: 100%; 
+            height:	125px;
+            margin: 0;
+            padding: 0;	
+            display: grid; 	
+		}
+		.cont-four a {
+           text-decoration: none;
+           width: 270px;
+           height: 20px;
+           background-color: #00000085;
+           margin: 5px 0 0 10px;
+           padding: 5px;
+           font-family: fantasy;
+           font-weight: lighter;
+           font-size: 16px;
+           text-align: center;
+           color: white;
+		}
+		.cont-four a:hover {
+		   background-color: #00000057;
+		} 
+		}
+		/*galaxy s5*/
+		@media(max-width: 360px) {
+        /*sign up view*/
+body {
+	margin: 0;
+	padding: 0;
+}
+.app-name-container {
+	width: 100%;
+	height: 50px;
+	margin: 0 0 15px 0;
+	padding: 0;
+	overflow: hidden;
+	text-align: center;
+}
+.app-name {
+	font-size: 30px;
+	font-family: fantasy;
+	font-weight: lighter;
+}
+		.signUp-container {
+			width: 300px;
+			height: 500px;
+			margin: auto;
+			padding: 0;
+			border: 1px solid #00000057;
+            border-radius: 4px;
+            text-overflow: none;
+		}
+		.cont-one {
+			width: 100%; 
+			height: 125px;
+			margin: 0;
+			padding: 0;
+			text-overflow: none;
+		}
+		.cont-one h1 {
+			    text-align: center;
+    			color: black;
+    			font-family: fantasy;
+    			font-style: normal;
+    			font-stretch: normal;
+    			font-kerning: normal;
+    			font-weight: lighter;
+    			font-size: -webkit-xxx-large;
+    			padding: 30px 0 0 0;
+    			margin: auto;
+		}
+		.cont-two {
+            width: 100%; 
+            height: 60px;
+            margin: 0;
+            padding: 0;
+		}
+		.cont-two-label-container {
+			width: 100%;
+			height: 20px;
+			margin: 0;
+			padding: 0;
+		}
+		.cont-two-input-container {
+			width: 100%;
+			height: 40px;
+			margin: 0;
+			padding: 0;
+		}
+		.labelClass {
+            margin: 0 0 0 30px;
+            padding: 0;
+            font-size: 16px;
+            font-family: fantasy;
+            font-weight: lighter;
+		} 
+		.inputClass {
+            margin: 0 0 0 30px;
+            padding: 5px;
+            width: 210px;
+            height: 20px;
+		}
+		.cont-three {
+            width: 100%; 
+            height: 125px;
+            margin: 0 0 20px 0;
+            padding: 0;
+		}
+		.cont-three-one {
+			width: 100%;
+			height: 62.5px;
+			margin: 0;
+			padding: 0;
+		}
+		.cont-four {
+            width: 100%; 
+            height:	125px;
+            margin: 0;
+            padding: 0;	
+            display: grid; 	
+		}
+		.cont-four a {
+           text-decoration: none;
+           width: 270px;
+           height: 20px;
+           background-color: #00000085;
+           margin: 5px 0 0 10px;
+           padding: 5px;
+           font-family: fantasy;
+           font-weight: lighter;
+           font-size: 16px;
+           text-align: center;
+           color: white;
+		}
+		.cont-four a:hover {
+		   background-color: #00000057;
+		} 
+		}
