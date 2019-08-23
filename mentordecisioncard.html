@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Free Mentors | Mentors Accept or Deny Requests</title>
+	<link rel="stylesheet" type="text/css" href="./mentordecisioncard.css">
+</head>
+<body>
+	<div class="decision-container">
+	<div class="decision-sub-container">
+		<!--verification-->
+		<div class="verification-container">
+			<div class="user-info-container">
+			<h4><bold>User email:</bold><br><span>edgarmutangana@gmail.com</span></h4>
+			<h4><bold>Mentor requested id:</bold><br><span>#242344</span></h4>
+		</div>
+		<div class="confirm-container">
+			<label>Confirm with a token:</label><br>
+			<input id="tokenVal" placeholder="323da@!*?YYZOLH&7" type="token" name=""><br>
+			<button onclick="confirm()" id="confirm-token">Confirm</button>
+		</div>
+		</div>
+		<!--accept or deny-->
+		<div class="accept-or-deny-container">
+			<label id="help" class="hint"></label><br>
+			<button onclick="acceptReq()" id="accept-id">Accept Request</button><br>
+			<button onclick="denyReq()" id="deny-id">Deny Request</button>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="./mentordecisioncard.js"></script>
+</body>
+</html>
